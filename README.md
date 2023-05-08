@@ -2,18 +2,25 @@ Installation for Nuxt app
     -Node version 16 or newer
     -Open a terminal and use the following command to create a new starter project:
     -For this project, the name of the app is logform-app
+    
+    
         >npx nuxi init logform-app
         >cd logform-app
         >npm install (to install dependencies)
         >npm run dev (to run your nuxt from your browser with the localhost address)
         >npm install --save-dev @nuxtjs/tailwindcss
         >npm install --save axios vue-axios
+        
+        
 Installation for Strapi
     -Open terminal of your root file project and use the following command to install the strapi folder/project
     -The name of your strapi folder for this project is logform-backend
+    
+    
         >npx create-strapi-app logform-backend
         >npm run develop
     -then setup your strapi
+
 
 Create Layout for your Nuxt app
 -logform-app/layouts/default.vue
